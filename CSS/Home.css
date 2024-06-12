@@ -1,0 +1,47 @@
+body {
+    padding: 0 20px; /* Adds space to the left and right sides of the website */
+    background-color: #3C3C3B; /* Changes the background color of the website */
+}
+
+.imagebox1 h1, .imagebox2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Positions the text 20px from the left of the image */
+    transform: translateY(-50%);
+    color: #fff; /* Change the color of the text to white */
+}
+
+.imagebox1 {
+    position: relative;
+    height: 750px; /* Reduces the maximum height of the image containers */
+    max-width: 90%; /* Reduces the maximum width of the image containers */
+    margin-top: 200px; /* Adds space to the top of the image containers */
+    margin-left: auto; /* Centers the image containers */
+    margin-right: auto; /* Centers the image containers */
+    overflow: hidden; /* Prevents the images from overflowing */
+}
+
+.imagebox2 {
+    position: relative;
+    height: 750px; /* Reduces the maximum height of the image containers */
+    max-width: 90%; /* Reduces the maximum width of the image containers */
+    margin-top: 40px; /* Adds space to the top of the image containers */
+    margin-left: auto; /* Centers the image containers */
+    margin-right: auto; /* Centers the image containers */
+    overflow: hidden; /* Prevents the images from overflowing */
+}
+
+.imagebox2 .text1, .imagebox2 .text2 {
+    display: block; /* Makes the sentences appear on separate lines */
+    position: absolute;
+    left: 20px;
+    color: #fff; /* Change the color of the text to white */
+}
+
+.imagebox2 .text1 {
+    top: 40%; /* Adjust this value as needed */
+}
+
+.imagebox2 .text2 {
+    top: 60%; /* Adjust this value as needed */
+}
