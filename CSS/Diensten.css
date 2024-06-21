@@ -6,9 +6,29 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px; /* Adjust this value as needed */
+}
+
+.flex-item-1 {
+    flex: 0 0 calc(50% - 10px);
+    margin-top: 100px; /* Adjust this value as needed */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 50px;
 }
 
 .flex-item {
-    flex-basis: calc(50% - 10px); /* Adjusts the width of each item. 10px accounts for the space between items */
-    margin-bottom: 20px; /* Adds space below each item */
+    flex: 0 0 calc(50% - 10px);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.flex-item img {
+    width: 80%; /* Adjust this value as needed */
+    height: 60%; /* Adjust this value as needed */
+    object-fit: cover;
 }
