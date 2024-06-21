@@ -1,8 +1,8 @@
 .navigatie {
-    position: absolute; /* Positions the navigation bar relative to the nearest positioned ancestor */
-    top: 0; /* Makes the navigation bar touch the top of the screen */
-    left: 0; /* Makes the navigation bar touch the left side of the screen */
-    right: 0; /* Makes the navigation bar touch the right side of the screen */
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
     width:100%;
     background-color: #3EB1C8;
     color: white;
@@ -10,7 +10,7 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 0px;
-    z-index: 1000; /* Ensures the navigation bar always stays on top */
+    z-index: 1000; 
 }
 
 .navigatie .logo {

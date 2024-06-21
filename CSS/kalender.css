@@ -6,12 +6,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 100px; /* Adjust this value as needed */
+    margin-top: 100px; 
 }
 
 .agenda {
-    background-color: #3EB1C8; /* Verander dit naar de gewenste kleur */
-    padding: 20px; /* Verander dit naar de gewenste padding */
+    background-color: #3EB1C8; 
+    padding: 20px; 
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
